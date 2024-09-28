@@ -10,7 +10,7 @@ replace github.com/plantoncloud/pulumi-module-golang-commons => ../../plantonclo
 
 require (
 	github.com/pkg/errors v0.9.1
-	github.com/plantoncloud/project-planton/apis v0.0.0-00010101000000-000000000000
+	github.com/plantoncloud/project-planton/apis v0.0.0-20240928044211-9168d6c7a46b
 	github.com/plantoncloud/pulumi-module-golang-commons v0.0.0-20240928073143-7b29b143661c
 	github.com/pulumi/pulumi-aws-native/sdk v0.109.0
 	github.com/pulumi/pulumi/sdk/v3 v3.129.0
@@ -69,7 +69,6 @@ require (
 	github.com/pgavlin/fx v0.1.6 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pkg/term v1.1.0 // indirect
-	github.com/plantoncloud/project-planton/apis v0.0.0-20240928044211-9168d6c7a46b // indirect
 	github.com/pulumi/appdash v0.0.0-20231130102222-75f619a67231 // indirect
 	github.com/pulumi/esc v0.9.1 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
