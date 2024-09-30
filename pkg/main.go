@@ -1,13 +1,13 @@
 package pkg
 
 import (
+	awsstaticwebsitev1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/apis/provider/aws/awsstaticwebsite/v1"
 	"github.com/pkg/errors"
-	"github.com/plantoncloud/project-planton/apis/zzgo/cloud/planton/apis/code2cloud/v1/aws/awsstaticwebsite"
 	"github.com/pulumi/pulumi-aws-native/sdk/go/aws"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
-func Resources(ctx *pulumi.Context, stackInput *awsstaticwebsite.AwsStaticWebsiteStackInput) error {
+func Resources(ctx *pulumi.Context, stackInput *awsstaticwebsitev1.AwsStaticWebsiteStackInput) error {
 	awsCredential := stackInput.AwsCredential
 
 	//create aws provider using the credentials from the input
