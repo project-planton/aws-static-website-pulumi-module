@@ -1,4 +1,4 @@
-module github.com/plantoncloud/s3-website-pulumi-module
+module github.com/plantoncloud/aws-static-website-pulumi-module
 
 go 1.23.1
 
